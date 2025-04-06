@@ -303,9 +303,15 @@ Rule 3 提取链接中的内容
 如果出现漏翻，说明<<>>中有需要翻译的文本。
 这是因为SugarCube中存在[Macros用法](https://www.motoslave.net/sugarcube/2/docs/#macros)
 ```
-/<<di (\S*) "([^"]*)"/g
-/<<dio "([^"]*)" "([^"]*)"/g
-/<<link "([^"]*)"/g
+<<back "戦闘員の生活に戻る">>
+<<back "戻る">>
+<<return "戻る">>
+```
+就需要更多的规则来匹配。
+```
+/<<back "(.+?)"/g
+/<<return "(.+?)"/g
+/<<link "(.+?"/g
 ```
 ## 机翻+手动润色​​
 在上述步骤中我们应该成功使用Translator++提取到了游戏文本。
