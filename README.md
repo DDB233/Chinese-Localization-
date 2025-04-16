@@ -5,6 +5,6 @@
    - 注入翻译→[twee_Inject.tpm](twee_Inject.tpm)
 2. RenPy类
    - [RenPy更改字体新思路](RenPy更改字体新思路.md)
-   - 字体替换[font_override.rpy](font_override.rpy)
+   - 字体替换→[font_override.rpy](font_override.rpy)
    
     
